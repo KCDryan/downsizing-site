@@ -5,7 +5,8 @@ A Claude Code skill that launches a complete "<City> Downsizing" lead-generation
 ## Requirements
 
 - [Claude Code](https://claude.com/claude-code)
-- `git`
+- `git` and the GitHub CLI, signed in (`gh auth login`) to an account that can read the private
+  template repo `KCDryan/newyorkdownsizing`. The skill clones it on first run.
 - A Cloudflare account (the skill deploys to Cloudflare Pages)
 
 ## Install

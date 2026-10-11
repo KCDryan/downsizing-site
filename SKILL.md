@@ -28,7 +28,12 @@ COLORS                         optional (New York used city-flag blue and orange
 ## 1. Template and working rules
 
 - Template: the newest city repo. As of this writing `~/newyorkdownsizing` (it carries every
-  fix below); `~/tampadownsizing` is the original. Read `playbook/README.md`, `content.md`,
+  fix below); `~/tampadownsizing` is the original. Both are private repos under `KCDryan`. Get
+  the latest before anything else, on any device:
+  `[ -d ~/newyorkdownsizing ] || gh repo clone KCDryan/newyorkdownsizing ~/newyorkdownsizing; git -C ~/newyorkdownsizing pull -q`
+  Clone `KCDryan/tampadownsizing` to `~/tampadownsizing` the same way when a brief points at it.
+  If the clone is refused, stop and tell the owner this device needs `gh auth login` with access
+  to that repo. Read `playbook/README.md`, `content.md`,
   `places.md` and `photos.md` in the template first. They are binding; this skill adds what
   they do not say.
 - Delegate research and writing to background agents on **Sonnet**, simple lookups to

@@ -15,7 +15,7 @@ Site: newyorkdownsizing.com. `c.city` = New York, `c.state` = New York, `c.state
 - Florida concepts do not exist here: no homestead exemption, no portability, no CDD, no
   documentary stamps, no estoppel, no hurricane shutters talk. New York has none of them.
 - Format reference ONLY (never copy facts): the Tampa site's pages at
-  /Users/ryanchan/tampadownsizing/src/pages/ show the tone, structure and markup quality
+  ~/tampadownsizing/src/pages/ show the tone, structure and markup quality
   expected.
 - Every fact you state needs a source you read. Law/tax/hazard facts: use the verified fact
   sheets below and cite their URLs; do not re-derive them differently. Anything marked
